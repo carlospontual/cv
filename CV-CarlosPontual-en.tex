@@ -1,0 +1,202 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[margin, 10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+
+\usepackage{helvet} % Default font is the helvetica postscript font
+%\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=*}
+
+\setlength{\textwidth}{5.1in} % Text width of the document
+
+%
+\def\name{Carlos Eduardo Pontual de Lemos Castro}
+\def\endereco{Rua Silva Jatahy, 500 -- Ap 500 -- Meireles}
+\def\cidade{Fortaleza, CE -- CEP: 60.165-070}
+\def\mail{carloscode@gmail.com}
+\def\skype{carlosedpontual }
+\def\telefone{+55 85 9988-5104 / +55 85 3224-1180}
+% -----
+
+\renewcommand{\labelitemi}{$-$}
+
+
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {resume, curriculum vitae},
+  pdftitle = {\name: Curriculum Vitae-Carlos Eduardo Pontual},
+  pdfsubject = {Curriculum Vitae-Carlos Eduardo Pontual},
+  pdfpagemode = UseNone
+}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+
+%\moveleft.5\hoffset\centerline{\large\bf John Smith} % Your name at the top
+ 
+\moveleft1.0\hoffset\hbox{{\huge\bf Carlos Eduardo Pontual} {\huge de Lemos Castro }}
+
+\vspace{0.10in}
+
+\moveleft1.0\hoffset\hbox{
+\begin{minipage}{0.55\linewidth}
+  \endereco \\
+  \cidade
+\end{minipage}
+\begin{minipage}{0.4\linewidth}
+  \begin{tabular}{ll}
+    \href{mailto:\mail}{\tt \mail} / \skype (Skype)\\
+    Telefones: \telefone
+  \end{tabular}
+\end{minipage}
+}
+
+%\moveleft.5\hoffset\centerline{123 Broadway} % Your address
+%\moveleft.5\hoffset\centerline{City, State 12345}
+%\moveleft.5\hoffset\centerline{(000) 111-1111 or (111) 111-1112}
+
+%----------------------------------------------------------------------------------------
+
+\begin{resume}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE SECTION
+%----------------------------------------------------------------------------------------
+ \vspace{-0.05in}
+\section{Objective}  
+
+Software Engineer
+
+%----------------------------------------------------------------------------------------
+%	RESUME SECTION
+%----------------------------------------------------------------------------------------
+ 
+\section{Resume}  
+
+Technical leader. BSc and MSc on Computer Science, with focus on software engineering. Carlos Eduardo is an enthusiast of technology with a passion for new challenges. He has vast experience on development of mobile applications, on numerous plataforms. Currently he develops apps and games for Android devices.
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+{\sl\bf MSc on Computer Science} \hfill {\bf jan 2008 -- jun 2010} \\
+Informatics Center (CIn) / Federal University of Pernambuco (UFPE) \\
+Dissertation title: {\sl Design Rules for Increasing Modularity with CaesarJ}
+\vspace{0.1in}
+\\{\sl\bf BSc on Computer Science} \hfill {\bf jan 2004 -- dec 2007} \\
+Federal University of Ceará (UFC)  
+ 
+ 
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+ 
+\section{Experience}
+{\sl\bf Group of Computer Networks, Software Engineering and Systems (GREat)}  \\
+{\sl System Analyst} \hfill {\bf dec 2010 -- present}
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Technical leader of two Android apps projects
+\item Development of apps and games for Android devices
+\item Development of automatic tests for Android platform
+\item Analysis and development of Country Adaptations for mobile phone carriers - Feature Phone (C/C++) / Android
+\end{itemize}
+ 
+{\sl\bf doistempos.com} \\
+{\sl Software Consultant} \hfill {\bf feb 2007 -- jan 2008}
+\begin{itemize} \itemsep -2pt 
+\item Design and development of doistempos.com Mobile e-commerce application (JME)
+\item Design and development of mobile applications with .NET Compact Framwork (C\#, Web Services, SQL Server)
+\end{itemize} 
+
+
+{\sl\bf Group of Computer Networks, Software Engineering and Systems (GREat)}  \\
+{\sl Scientific Initiation Scholarship (PIBIC/CNPq)} \hfill {\bf jan 2005 -- jul 2007}
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Development of mobile app UbiPEP - Ubiquitous Medical Prontuary (JME)
+\item Maintenance and implementations of new features on CGR - GREat Asset Manaement System (PHP, MySQL)
+\item Development of a tool to collect network routers data - GET-RNA (Java)
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	OTHER PROJECTS
+%---------------------------------------------------------------------------------------- 
+
+\section{Other \\ Projects}
+
+{\sl\bf Xlung} \\
+{\sl Systems Analyst and Software Consultant} \hfill {\bf may 2012 -- present}
+\begin{itemize} \itemsep -2pt 
+\item Analysis, project design and development of xlung.net web portal (Ruby On Rails / Passenger)
+\end{itemize} 
+
+\section{Courses}
+Asp.NET MVC 2.0, 40h -- OpenGL ES, 16h -- Windows Phone, 30h
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+{\sl\bf Programming Languages:}  Android, Java, Ruby, C\#, C, C++, Python, PHP \\
+{\sl\bf Frameworks:} Ruby on Rails, Qt, .NET MVC, .NET Compact Framework \\
+{\sl\bf Databases:} MySQL, SQLite e SQL Server \\
+Development on operational systems Linux, Windows and Mac (OSX) \\
+Software versioning systems SVN, ClearCase and Git \\
+Agile software development methods (Scrum and XP) \\
+
+%\begin{itemize} \itemsep -2pt
+%\item Android
+%\item Ruby on Rails
+%\item Java para Desktops (JSE) e dispositivos móveis (JME)
+%\item C, C++ (Qt), PHP, Python
+%\item .NET (C\#, MVC 2.0) e .NET Compact Framework (C\#)
+%\item Bancos de dados MySQL, SQLite e SQL Server
+%\item Sistemas operacionais Linux, Windows e Mac (OSX)
+%\item Sistemas de controle de versão SVN, ClearCase e Git
+%\item Metodologias de desenvolvimento ágeis (Scrum e XP) 
+%\end{itemize}
+
+\section {Additional Info}
+Brazilian, 27 years old, single, no children \\
+{\sl\bf Idiomas:} Portuguese (Native), English (Fluent), French (basic) \\
+{\sl Oracle Certified Java Programmer 6} \\
+{\sl\bf Lattes CV:} \url{http://lattes.cnpq.br/9333882757346321} \\
+{\sl\bf LinkedIn profile:} \url{http://linkedin.com/pub/carlos-eduardo-pontual/4/17a/291} \\
+
+%----------------------------------------------------------------------------------------
+
+
+\end{resume}
+\end{document}
